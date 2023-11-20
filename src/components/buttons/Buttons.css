@@ -1,0 +1,13 @@
+#Buttons {
+    display: flex;
+    gap: 0.5rem;
+  }
+  
+  #Buttons button {
+    border-radius: 50%; /* Make the button circular */
+    transition: background-color 0.3s ease; /* Add transition for smooth color change */
+  }
+  
+  #Buttons button:active {
+    background-color: #ffcc00; /* Change the background color on click */
+  }
